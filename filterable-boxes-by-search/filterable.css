@@ -1,0 +1,203 @@
+.overlay {
+    display: block;
+    position: relative;
+    background-color: rgba(59, 166, 72, .67);
+    height: 100%;
+    width: 100%;
+}
+
+.overlay:hover {
+    transition: background-color 0.2s ease;
+    background-color: rgba(59, 166, 72, 1);
+}
+
+.center-box {
+    position: absolute;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+.box-name {
+    color: white;
+    text-align: center;
+}
+
+.box {
+    background-size: cover;
+    height: 250px;
+}
+@media screen and (max-width: 767px) {
+    .box {
+        margin-bottom: 20px;
+    }
+}
+p.details {
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+#lectures {
+    background-image: url(http://lfs-ubcfarm.sites.olt.ubc.ca/files/2017/04/18470082134_ccdec40ffc_o.jpg);
+}
+#community {
+    background-image: url(http://lfs-ubcfarm.sites.olt.ubc.ca/files/2017/02/community.jpg);
+}
+#tuwusht {
+    background-image: url(http://lfs-ubcfarm.sites.olt.ubc.ca/files/2017/02/Tu27wusht.jpg);
+}
+#seeds {
+    background-image: url(http://lfs-ubcfarm.sites.olt.ubc.ca/files/2017/02/Seeds.png);
+}
+#orchard {
+    background-image: url(http://lfs-ubcfarm.sites.olt.ubc.ca/files/2017/02/Orchard2.jpg);
+}
+#poultry {
+    background-image: url(http://lfs-ubcfarm.sites.olt.ubc.ca/files/2017/02/poultry.jpg);
+}
+#volunteer {
+    background-image: url(http://lfs-ubcfarm.sites.olt.ubc.ca/files/2017/04/16793216628_e9815a9111_o.jpg);
+}
+#community {
+    background-image: url(http://lfs-ubcfarm.sites.olt.ubc.ca/files/2015/05/2014-06-27-EDIT-EDUC-440-Aboriginal-Education-in-Canada-students-share-in-a-medicine-walk-and-harvest-in-the-Indigenous-Health-Garden-e1465079559107.jpg);
+}
+#tours {
+    background-image: url(http://lfs-ubcfarm.sites.olt.ubc.ca/files/2017/04/Farm-Tour-Sunset-smaller.jpg);
+}
+#FarmersMarket {
+    background-image: url(http://lfs-ubcfarm.sites.olt.ubc.ca/files/2017/02/FarmMarket.jpg);
+}
+#additional {
+    background-image: url(http://lfs-ubcfarm.sites.olt.ubc.ca/files/2016/04/22874522704_3ab8dc6798_k.jpg);
+}
+#bookings {
+    background-image: url(http://lfs-ubcfarm.sites.olt.ubc.ca/files/2015/12/childrens-greenhouse.jpg);
+  }
+#pest {
+    background-image: url(http://lfs-ubcfarm.sites.olt.ubc.ca/files/2017/06/Spotted-wing_Drosophila_Drosophila_suzukii_male_15359228246-e1496691621782.jpg);
+}
+#learning {
+    background-image: url(http://lfs-ubcfarm.sites.olt.ubc.ca/files/2014/03/the-ubc-farm_23690310601_o-e1465077425535.jpg);
+  }
+#indigenous {
+    background-image: url(http://lfs-ubcfarm.sites.olt.ubc.ca/files/2017/06/indigenous-garden.png);
+    }
+#smukler {
+    background-image: url(http://lfs-ubcfarm.sites.olt.ubc.ca/files/2017/06/Smukler-1-e1496690990995.jpg);
+      }
+#andrewblack {
+    background-image: url(http://lfs-ubcfarm.sites.olt.ubc.ca/files/2017/05/15023760846_99c0f3c758_b.jpg);
+        }
+#blueberries {
+    background-image: url(http://lfs-ubcfarm.sites.olt.ubc.ca/files/2017/06/14197155432_ec0542d5ad_k.jpg);
+}
+#student_testimonial .slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+#student_testimonial .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: black;
+}
+#student_testimonial .slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 25px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#student_testimonial .slick-dots li {
+    position: relative;
+    display: inline-block;  /* removes the dots */
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+#student_testimonial .slick-list .slick-slide > h3 {
+    float: right;
+    margin-right: 10%;
+}
+#student_testimonial {
+    padding: 30px;
+}
+#student_testimonial > ul.slick-dots {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+}
+#student_testimonial .slick-slide {
+    outline: 0;
+    border: 0;
+}
+@media screen and (max-width: 480px) {
+    #student_testimonial {
+        padding: 15px;
+    }
+    #student_testimonial .slick-list .slick-slide > p {
+        margin: 0px;
+        font-size: 103%;
+        text-align: justify;
+    }
+    #student_testimonial .slick-list .slick-slide > h2 {
+        font-size: 25px;
+        float: right;
+        margin-right: 0px;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    #student_testimonial .slick-list .slick-slide > p {
+        margin: 0px;
+        font-size: 120%;
+    }
+    #student_testimonial .slick-list .slick-slide > h2 {
+        float: right;
+        margin-right: 0px;
+        font-size: 30px;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1200px) {
+    #student_testimonial .slick-list .slick-slide > p {
+        margin: 0 50px;
+    }
+    #student_testimonial .slick-list .slick-slide > h2 {
+        float: right;
+        margin-right: 50px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    #student_testimonial .slick-list .slick-slide > p {
+        margin: 0 50px;
+    }
+    #student_testimonial .slick-list .slick-slide > h2 {
+        float: right;
+        margin-right: 50px;
+    }
+}
+.one-third {float:left; width:31%; margin:1%;}
+@media screen and (max-width: 600px) {
+  .one-third {
+    width:100%!important
+  }
+}

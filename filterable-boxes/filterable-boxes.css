@@ -1,0 +1,41 @@
+.overlay {
+    display: block;
+    position: relative;
+    background-color: rgba(59, 166, 72, .67);
+    height: 100%;
+    width: 100%;
+}
+
+.overlay:hover {
+    transition: background-color 0.2s ease;
+    background-color: rgba(59, 166, 72, 1);
+}
+
+.center-box {
+    position: absolute;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+.box-name {
+    color: white;
+    text-align: center;
+}
+
+.box {
+    background-size: cover;
+    height: 250px;
+}
+@media screen and (max-width: 767px) {
+    .box {
+        margin-bottom: 20px;
+    }
+}
+
+.one-third {float:left; width:31%; margin:1%;}
+@media screen and (max-width: 600px) {
+  .one-third {
+    width:100%!important
+  }
+}

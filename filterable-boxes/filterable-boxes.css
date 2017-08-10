@@ -39,3 +39,8 @@
     width:100%!important
   }
 }
+p.details {
+    color: white;
+    margin: 10px;
+    text-align: center;
+}

@@ -14,10 +14,10 @@
     height: 100%;
     width: 100%;
     background: none;
-    background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.3));
-    background: -o-linear-gradient(transparent, rgba(0, 0, 0, 0.3));
-    background: -moz-linear-gradient(transparent, rgba(0, 0, 0, 0.3));
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.3));
+    background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+    background: -o-linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+    background: -moz-linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
 }
 .image-region {
     position: relative;
@@ -28,6 +28,7 @@
     line-height: 150%;
     font-family: 'Whitney SSm A', 'Whitney SSm B', Arial, sans-serif;
     text-shadow: 0 0 1px rgba(0,0,0,0.6);
+    margin-bottom: -20px;
 }
 
 @media screen and (max-width: 1200px) {

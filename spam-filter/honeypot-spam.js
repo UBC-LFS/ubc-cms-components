@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
   document.getElementsByClassName('gform_body')[0].appendChild(input)
 
   document.getElementById('inputHide').oninput = function () {
-    var buttons = document.getElementsByClassName('gform_button')
-    Array.prototype.map.call(buttons, function (x) { x.parentNode.removeChild(x) })
+    var button = document.getElementsByClassName('gform_button')[0]
+    button.parentNode.removeChild(button)
   }
 })

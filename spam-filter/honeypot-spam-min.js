@@ -1,3 +1,1 @@
-document.addEventListener('DOMContentLoaded', function (event) {
-  var input = document.createElement('input'); input.setAttribute('style', 'display:none;'), input.setAttribute('type', 'text'), input.setAttribute('id', 'inputHide'), document.getElementById('content').appendChild(input), document.getElementById('inputHide').oninput = function () { var t = document.getElementsByClassName('gform_button'); Array.prototype.map.call(t, function (t) { t.parentNode.removeChild(t) }) }
-})
+document.addEventListener("DOMContentLoaded",function(e){var t=document.createElement("input");t.setAttribute("style","display:none;"),t.setAttribute("type","text"),t.setAttribute("id","inputHide"),document.getElementsByClassName("gform_body")[0].appendChild(t),document.getElementById("inputHide").oninput=function(){var e=document.getElementsByClassName("gform_button")[0];e.parentNode.removeChild(e)}});
